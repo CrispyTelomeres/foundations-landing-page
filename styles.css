@@ -23,6 +23,18 @@ body {
     font-size: 24px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e5e7ebcf;
+}
+
+a:hover {
+    color: #3882f6;
+}
+
 .container-header .header ul {
     color: #e5e7eb;
     list-style: none;
@@ -74,4 +86,57 @@ body {
 .hero img {
     height: auto;
     width: 600px;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-content h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.container-content .cards {
+    display: flex;
+    align-items: center;
+    padding: 8px 100px;
+}
+
+.container-content .cards .card img {
+    height: auto;
+    width: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.container-content .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote h3 {
+    text-align: end;
+    font-size: 32px;
+
 }
